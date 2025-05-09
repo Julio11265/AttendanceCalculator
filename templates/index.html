@@ -135,7 +135,7 @@ select:focus {
         <form method="post">
             <label for="month">Select the month:</label>
 <select name="mes" id="month" required>
-    <option value="" disabled selected>Select a month</option>
+    <option value="" disabled selected>Choose a month from the list below...</option>
     <option value="1">January</option>
     <option value="2">February</option>
     <option value="3">March</option>
@@ -150,7 +150,7 @@ select:focus {
     <option value="12">December</option>
 </select>
 
-            <label for="deducted_days">Total deducted days (Annual leaves, holidays, others):</label>
+            <label for="deducted_days">Total deducted days (Annual leave, holidays, others):</label>
             <input type="text" name="dias_restados" id="deducted_days" required>
 
             <button type="submit">Calculate</button>
@@ -172,9 +172,9 @@ select:focus {
             </div>
         {% endif %}
 
-        <p class="note">Note: The calculation is based on a month working Monday to Friday.</p>
+        <p class="note">Note: The calculation is based on a month working Monday to Friday</p>
         <p class="note">Created by: Julio Gonzalez</p>
-        <p class="note">Version 1.1</p>
+        <p class="note">Version 1.2</p>
     </div>
 </body>
 </html>
