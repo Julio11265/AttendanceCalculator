@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Calculate working days
 def calculate_working_days(month):
-    year = 2025
+    year = 2026
     working_days = 0
 
     # Iterate through the working days of the month
